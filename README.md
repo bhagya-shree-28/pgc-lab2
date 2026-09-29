@@ -630,6 +630,8 @@ For example:
 The 16-thread runs therefore require substantially less time than the corresponding 1-thread parallel runs.
 
 ---
+<img width="1117" height="664" alt="graph1(exec_vs_noofthreads)" src="https://github.com/user-attachments/assets/e7e0d60d-111f-4b56-bb01-cbd3947d9ed9" />
+
 
 ## Speedup
 
@@ -673,6 +675,8 @@ At 16 threads:
 These values are based on the actual execution times shown in the provided terminal results.
 
 ---
+<img width="1014" height="604" alt="graph2_speed_vs_noofthreads" src="https://github.com/user-attachments/assets/fcc4e7ae-aa9d-41ab-9344-a921c9a19a1c" />
+
 
 ## Efficiency
 
@@ -710,6 +714,8 @@ At 16 threads, the measured efficiency is:
 The efficiency decreases as the thread count becomes large relative to the amount of useful work each thread performs. Parallel overhead prevents speedup from increasing perfectly proportionally with the number of threads.
 
 ---
+<img width="999" height="592" alt="graph3_efficiency_vs_noofthreads" src="https://github.com/user-attachments/assets/9c4a1738-1999-4d79-907c-94d08821ef80" />
+
 
 ## Pthreads vs OpenMP
 
