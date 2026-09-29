@@ -352,24 +352,39 @@ The performance section compares:
 A suitable repository structure is:
 
 ```text
-parallel_lab/
-|
-├── sequential.c
-|
-├── thread1.c
-├── thread2.c
-├── thread_sum.c
-├── race.c
-├── mutex.c
-├── pthread_perf.c
-|
-├── omp1.c
-├── omp_sum.c
-├── omp_race.c
-├── omp_critical.c
-├── omp_barrier.c
-├── omp_perf.c
-|
+pgc-lab2/
+│
+├── pthreads/
+│   ├── thread1.c
+│   ├── thread1_result.png
+│   ├── multiple_threads.c
+│   ├── multiple_threads_result.png
+│   ├── thread_sum.c
+│   ├── thread_sum_result.png
+│   ├── race.c
+│   ├── racecondition_result.png
+│   ├── mutex.c
+│   └── mutex_result.png
+│
+├── openmp/
+│   ├── omp1.c
+│   ├── omp1_result.png
+│   ├── omp_sum.c
+│   ├── omp_sum_result.png
+│   ├── omp_race.c
+│   ├── omp_critical.c
+│   ├── omp_critical_result.png
+│   ├── omp_barrier.c
+│   └── omp_barrier_result.png
+│
+├── performance_analysis/
+│   ├── sequential.c
+│   ├── sequential_result.png
+│   ├── pthread_perf.c
+│   ├── pthread_perf_result.png
+│   ├── omp_perf.c
+│   └── omp_perf_result.png
+│
 └── README.md
 ```
 
